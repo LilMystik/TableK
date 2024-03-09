@@ -1,14 +1,14 @@
-package table.service;
+package schedule.service;
 
 
 
-import table.tableapi.TableApi;
+import schedule.tableapi.ScheduleApi;
 import org.springframework.stereotype.Service;
 
 @Service
-public class TableService {
-    TableApi api;
-    public TableService(TableApi api) {
+public class ScheduleService {
+    ScheduleApi api;
+    public ScheduleService(ScheduleApi api) {
         this.api = api;
     }
     public String getGroupData(String groupId) {

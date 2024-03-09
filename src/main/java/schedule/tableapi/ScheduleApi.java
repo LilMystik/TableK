@@ -1,11 +1,11 @@
-package table.tableapi;
+package schedule.tableapi;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 @Component
-public class TableApi {
+public class ScheduleApi {
     RestTemplate restTemplate;
-    public TableApi() {
+    public ScheduleApi() {
         restTemplate = new RestTemplate();
     }
     public String fetchGroupData(String groupId) {
