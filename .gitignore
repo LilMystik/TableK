@@ -18,11 +18,10 @@ mvnw
 
 ### IntelliJ IDEA ###
 .idea
-.mvn
+
 target
 .gitattributes
-mvnw
-mvnw.cmd
+
 *.iws
 *.iml
 *.ipr
